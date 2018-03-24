@@ -11,13 +11,23 @@ For the user these applications add value to the web page in so far as they are 
 ## Example
 
 ## Implementation
-
+### Isolation
+### Interaction
 ### Trust
+
+TLS-secured URL
 
 
 ## Bigger Picture
 
-Cross-application interaction in the frontend is up to this date only poorly supported.
+Environment: Operating System
+Up to now cross-application interaction in the frontend is only poorly supported. The common way to exchange data between user-facing applications is to _copy_ it to the 'clipboard' and _paste_ it in the destination. Type of data, mismatch, poor integration of apps.
+
+New: environment browser
+ Runtime environment for always 'heavier' frontend applications, rise of SPA, advent of WebAssembly.
+ Semantic markup, microformats make it possible to exchange 'typed' information with semantic value.
+
+Never trust the server: shift the linking between systems to the frontend. Give the user more control over inter-connections between systems.
 
 ## Comparison to related concepts
 

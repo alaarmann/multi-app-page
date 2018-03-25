@@ -1,10 +1,22 @@
-This site is trying to evolve the idea of a __multi-app page (MAP)__.
+This site is trying to evolve the idea of a __multi-app page (MAP)__, a concept where the user has control over what applications to use on a web page and what data to share.
 
 It conveys the opinionated view of the author(s). As a work in progress it can undergo changes at any time. The changes are reflected transparently by the backing GitHub repository [alaarmann/multi-app-page](https://github.com/alaarmann/multi-app-page/).
+
+## Challenge
+
+When a user loads a web page in her browser, it is quite common that the page in turn loads further JavaScript applications from other domains and other owners. If these applications are somewhat independent from the page and have a value of their own (e.g. a chat client), we could call that web page a _multi-app page_.
+
+We see the following shortcomings here:
+- The owner of the web page decides what applications her page offers to the user. She may leave a choice to the user, but only out of a pre-restricted set.
+- If no additional measures are taken, all applications and their owners have full access to the web page's data (e.g. URI, cookies, content). It is common case that the web page contains also the users private data, that is hence put at stake without her knowledge.
+
+For us this poses the challenge to create an intermediate entity, that enables the user to add whatever application she wants to the page and that let her transparently control whether this application should be given access to the pages data and to what extent.
+
 
 ## Vision
 
 A user accessing a multi-app page (MAP) has the option to add one or more applications of her choice to the page and control their access to the page's data.
+Benefit: use of additional applications enriches page in previously not intended ways.
 
 For the user these applications add value to the web page in so far as they are able to interact with the page. The user has full transparency over the extent of interaction.
 

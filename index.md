@@ -30,6 +30,8 @@ The user is given by the CSOT full transparency over the extent of interaction b
 The page owner for her part is given by the CSOT a guarantee that the application will not have a negative impact on her page by e.g. breaking functionality or corrupting content. The CSOT restricts the application's access to the page in such a way that only actions are permitted that the user could perform herself in the browser: e.g. reading content, filling out forms, triggering some page-action with a button.
 
 ### Example
+- self-contained app
+- interacting app
 
 ## Implementation
 ### Isolation

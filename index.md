@@ -12,22 +12,24 @@ We see the following shortcomings here:
 
 For us this poses the challenge to create an intermediate entity that enables the user to add whatever application she wants to the page and that lets her transparently control whether this application should be given access to the pages data and to what extent.
 
+In what follows we call that intermediate entity a __common source of trust (CSOT)__.
+
 
 ## Vision
 
-We advocate the concept of a multi-app page (MAP) as follows:
+We advocate the concept of a __multi-app page (MAP)__ enabled by a __common source of trust (CSOT)__ as follows:
 
-A user working with a MAP has the option to add one or more applications of her free choice to the page and control their access to the page's data.
+A user working with a CSOT-enabled MAP has the option to add one or more applications of her free choice to the page and control their access to the page's data.
 
-By default, such an application is completely isolated from the page and has no access to anything outside itself. This is already sufficient for applications that function fully independently. The user wants to have the application on the page for faster access or immediate notification while she is using the page.
+By default, the CSOT isolates such an application is completely from the page and the application has no access to anything outside itself. This is already sufficient for applications that function fully independently. The user wants to have the application on the page for faster access or immediate notification while she is using the page.
 
-The great potential however lies in the interaction between the application and the page. To that end the user can explicitly permit the application to access the page's data and/or pass its own data to the page. That opens up the page for value-added functions to the benefit of the user. Such functions are able to enrich the page in ways not even foreseen by the page owner.
+The great potential however lies in the interaction between the application and the page. To that end the user can explicitly set permissions for the applications in the CSOT to allow access to the page's data and/or pass the applications own data to the page. That opens up the page for value-added functions to the benefit of the user. Such functions are able to enrich the page in ways not even foreseen by the page owner.
 
-The user has full transparency over the extent of interaction between application and page and can revoke her permission to interact at any time or even disable the use of the application completely.
+The user is given by the CSOT full transparency over the extent of interaction between application and page and can revoke her permission to interact at any time or even disable the use of the application completely in the CSOT.
 
-The page owner for her part has the guarantee that the application will not have a negative impact on the functioning of her page, e.g. breaking functions or corrupting content.
+The page owner for her part is given by the CSOT a guarantee that the application will not have a negative impact on her page by e.g. breaking functionality or corrupting content. The CSOT restricts the application's access to the page in such a way that only actions the user could perform in her browser are permitted: reading content, filling out forms, triggering some page-action with a button.
 
-## Example
+### Example
 
 ## Implementation
 ### Isolation

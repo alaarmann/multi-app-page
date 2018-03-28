@@ -68,9 +68,11 @@ On the other hand we see the browser on its way to become the standard runtime e
 
 The concept of a MAP is aiming at bringing deeper cross-application interaction to the user and helping to expand the browsers capabilities towards a desktop-like functionality.   
 
-Moreover the MAP wants to move the linking between systems from the backend to the frontend and give the user more control over inter-connections between systems: never trust the server
+Moreover the MAP wants to move the linking between systems from the backend to the frontend and give the user more control over inter-connections between systems: never trust the server(s).
 
 ## Comparison to related concepts
+- [Microfrontends](https://micro-frontends.org/): similarity: the inter-component communication over the DOM, difference: all components (micro-apps) belong to the same owner.
+- Workflow-services (e.g. [Zapier](https://zapier.com/), [IFTT](https://ifttt.com/)): similarity: cross-application interaction, difference: backend-based
 
 ## Maintainer
 This site is maintained by [@alaarmann](https://twitter.com/alaarmann) and hosted by GitHub Pages. The backing repository can be found at [alaarmann/multi-app-page](https://github.com/alaarmann/multi-app-page/).

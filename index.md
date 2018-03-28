@@ -1,4 +1,4 @@
-This site is trying to evolve the idea of a __multi-app page (MAP)__, a concept where the user has control over what applications to use on a web page and what data to share.
+This project is trying to evolve the idea of a __multi-app page (MAP)__, a concept where the user has control over what applications to use on a web page and what data to share.
 
 It conveys the opinionated view of the author(s). As a work in progress it can undergo changes at any time. The changes are reflected transparently by the backing GitHub repository [alaarmann/multi-app-page](https://github.com/alaarmann/multi-app-page/).
 

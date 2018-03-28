@@ -75,4 +75,4 @@ Moreover the MAP wants to move the linking between systems from the backend to t
 - Workflow-services (e.g. [Zapier](https://zapier.com/), [IFTT](https://ifttt.com/)): similarity: cross-application interaction, difference: backend-based
 
 ## Maintainer
-This site is maintained by [@alaarmann](https://twitter.com/alaarmann) and hosted by GitHub Pages. The backing repository can be found at [alaarmann/multi-app-page](https://github.com/alaarmann/multi-app-page/).
+This site is maintained by [@alaarmann](https://twitter.com/alaarmann) and hosted on GitHub Pages. The backing repository can be found at [alaarmann/multi-app-page](https://github.com/alaarmann/multi-app-page/).

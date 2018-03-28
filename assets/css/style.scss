@@ -2,3 +2,19 @@
 ---
 
 @import "{{ site.theme }}";
+
+header {
+  position: unset;
+  float: none;
+  width: 500px;
+}
+
+section {
+  float: none;
+}
+
+footer {
+  position: unset;
+  float: none;
+  width: 500px;  
+}

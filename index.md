@@ -36,12 +36,17 @@ Moreover the app owner and the user are assured that the page can't access the a
 #### Self-contained application
 We imagine a user adding a chat client as a _self-contained application_ to the web page that contains an application she is usually working with. By default all interaction between the chat client and the page is disallowed. While working with the web page, the user is also able to communicate over the chat client at hands. Doing so she is sure that the web page can't eavesdrop on her communication.
 
+
+
 #### Interacting application
 We imagine a user adding a speech controller as an _interacting application_ to her favourite page. The user grants the speech controller permission to read the page's displayed data aloud and control the page by transforming the user's spoken commands into clicks on the page.
 
 ## Implementation
 
 Central part is the CSOT, which is an HTML-plugin on the web page. The user is able to interact with the CSOT: she opens its user interface by clicking on a button somewhere at the margin of the display area. In the user interface she can add/remove applications, set the permissions for interaction and define the display area for the applications.
+
+__The CSOT as the centrepiece of a MAP__
+![CSOT](./resources/csot.png)
 
 ### Isolation
 The CSOT isolates web page and applications by use of the [HTML `iframe` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) and possibly also [HTML Imports](https://developer.mozilla.org/en-US/docs/Web/Web_Components/HTML_Imports).

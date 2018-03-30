@@ -4,7 +4,7 @@ It conveys the opinionated view of the author(s). As a work in progress it can u
 
 ## Challenge
 
-When a user loads a web page in her browser, it is quite common that the page, which can be a JavaScript application itself, in turn loads further JavaScript applications from other origins. If these applications (and of course the web page ) are somewhat independent from the page and have a value of their own (e.g. a chat client), we could call that web page a _multi-app page_.
+When a user loads a web page in her browser, it is quite common that the page, which can be a JavaScript application itself, in turn loads further JavaScript applications from other origins. If these applications are somewhat independent from the page and have a value of their own (e.g. a chat client), we could call that web page a _multi-app page_.
 
 We see the following shortcomings here:
 - The owner of the web page decides what applications her page offers to the user. She may leave a choice to the user, but only out of a pre-restricted set.

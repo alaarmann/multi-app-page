@@ -48,6 +48,8 @@ Central part is the CSOT, which is an HTML-plugin on the web page. The user is a
 __The CSOT as the centrepiece of a MAP__
 ![CSOT](./resources/csot.png)
 
+The user is interacting directly with web page and the added applications. Web page and applications on their turn are able to interact by means of the CSOT.
+
 ### Isolation
 The CSOT isolates web page and applications by use of the [HTML `iframe` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) and possibly also [HTML Imports](https://developer.mozilla.org/en-US/docs/Web/Web_Components/HTML_Imports).
 

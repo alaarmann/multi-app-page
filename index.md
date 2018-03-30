@@ -81,5 +81,12 @@ Moreover the MAP wants to move the linking between systems from the backend to t
 - [Microfrontends](https://micro-frontends.org/): similarity: the inter-component communication over the DOM, difference: all components (micro-apps) belong to the same owner.
 - Workflow-services (e.g. [Zapier](https://zapier.com/), [IFTT](https://ifttt.com/)): similarity: cross-application interaction, difference: backend-based
 
+## Open issues
+- What would bring a page owner to put the CSOT-plugin on her page? Alternatively the plugin could be inserted on the client side (e.g. browser-plugin, injection by proxy).
+- How can the user's trust in the CSOT be established? The CSOT could be a fake one, manipulated by a malicious page owner: how would the user be able to notice?
+- How could a supply of includable applications be created?
+- How could the interaction between page and application be abstracted, so that arbitrary combinations of page / application become possible?
+
+
 ## Maintainer
 This site is maintained by [@alaarmann](https://twitter.com/alaarmann) and hosted on GitHub Pages. The backing repository can be found at [alaarmann/multi-app-page](https://github.com/alaarmann/multi-app-page/).
